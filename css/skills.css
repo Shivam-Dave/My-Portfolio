@@ -1,0 +1,81 @@
+/* Skills Section */
+#skills {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Amasis MT Pro", serif;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Bodoni MT", serif;
+}
+
+/* Technical Skill Rectangles */
+.skill-rectangle-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skill-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 123, 223, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.skill-rectangle:nth-child(4),
+.skill-rectangle:nth-child(5) {
+  padding: 20px;
+  grid-column: span 1;
+  grid-row: 2;
+  margin-right: -220px;
+  margin-left: 240px;
+}
+
+.skill-rectangle:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Skill icon grid */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  justify-content: center;
+}
+
+/* Skill icon styles */
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Skill name */
+.skill-rectangle h4 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Amasis MT Pro", serif;
+}
+
+/* Skill description */
+.skill-rectangle p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
