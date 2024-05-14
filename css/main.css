@@ -118,7 +118,7 @@ footer .contact-icon {
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   body {
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
   }
 
   .section {
