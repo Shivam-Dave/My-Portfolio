@@ -79,3 +79,21 @@
   margin-top: 5px;
   margin-bottom: 0;
 }
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .skill-rectangle-container {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); /* Adjust grid layout for smaller screens */
+  }
+
+  .skill-rectangle:nth-child(4),
+  .skill-rectangle:nth-child(5) {
+    padding: 20px;
+    grid-column: span 1;
+    grid-row: 2;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

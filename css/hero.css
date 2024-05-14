@@ -65,3 +65,20 @@
     opacity: 0;
   }
 }
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-top: -8px; /* Adjust margin for smaller screens */
+    margin-bottom: 8px; /* Adjust margin for smaller screens */
+    height: 4rem; /* Adjust height for smaller screens */
+  }
+
+  .role {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}

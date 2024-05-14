@@ -1,5 +1,5 @@
 /* Import fonts */
-  @import url("https://fonts.googleapis.com/css2?family=Castellar&family=Wide+Latin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castellar&family=Wide+Latin&display=swap");
 
 /* General Reset */
 body {
@@ -96,7 +96,7 @@ footer .contact-icon {
   transition: transform 0.3s ease-in-out;
 }
 
-footer .contact-icon:hover {
+.contact-icon:hover {
   animation: vibrate 0.3s linear infinite;
 }
 
@@ -113,4 +113,41 @@ footer .contact-icon:hover {
 .letter {
   display: inline-block;
   transition: transform 0.9s ease-in-out;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .section {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .contact-icon {
+    width: 35px; /* Adjust size for smaller screens */
+    height: 35px; /* Adjust size for smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
+    margin: 3px; /* Adjust margin for smaller screens */
+    border-width: 2px; /* Adjust border thickness for smaller screens */
+  }
+
+  footer {
+    padding: 15px 20px; /* Adjust padding for smaller screens */
+  }
+
+  footer .social-media a {
+    margin-right: 8px; /* Adjust margin for smaller screens */
+  }
+
+  footer .contact-icon {
+    width: 30px; /* Adjust size for smaller screens */
+    height: 30px; /* Adjust size for smaller screens */
+    margin-right: 8px; /* Adjust margin for smaller screens */
+  }
+
+  .shivam-dave {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
 }

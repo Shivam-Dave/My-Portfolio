@@ -30,3 +30,14 @@ nav ul li a:hover {
   color: blue;
   box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.9);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Change flex direction for smaller screens */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+}

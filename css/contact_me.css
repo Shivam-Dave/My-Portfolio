@@ -60,3 +60,24 @@ textarea {
 .contact-button:hover {
   background-color: #0056b3;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  #contact {
+    padding: 40px; /* Adjust padding for smaller screens */
+  }
+
+  #contact h2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+
+  input,
+  textarea {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+
+  .contact-button {
+    padding: 12px 25px; /* Adjust padding for smaller screens */
+  }
+}
