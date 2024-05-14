@@ -42,9 +42,12 @@
 
   .profile-container img {
     width: 40%; /* Adjust image width for smaller screens */
+    margin-bottom: 20px; /* Add margin bottom to image for spacing */
   }
 
   #about p {
     font-size: 1rem; /* Adjust font size for smaller screens */
+    line-height: 1.5; /* Adjust line height for better readability */
+    text-align: justify; /* Justify text alignment for better presentation */
   }
 }
