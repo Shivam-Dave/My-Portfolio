@@ -82,17 +82,14 @@
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .skill-rectangle-container {
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(200px, 1fr)
-    ); /* Adjust grid layout for smaller screens */
+    grid-template-columns: 1fr; /* Set grid to one column for smaller screens */
+    gap: 10px; /* Adjust gap between skill rectangles */
   }
 
   .skill-rectangle:nth-child(4),
   .skill-rectangle:nth-child(5) {
-    padding: 20px;
-    grid-column: span 1;
-    grid-row: 2;
+    grid-column: 1; /* Set grid column to 1 for all rectangles in smaller screens */
+    grid-row: auto; /* Reset grid row for all rectangles in smaller screens */
     margin-right: auto;
     margin-left: auto;
   }
